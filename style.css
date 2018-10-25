@@ -1,0 +1,83 @@
+/*
+@ User Mode Style Sheet
+@ By Al Mamun - Asifulmamun
+@ E-mail: asifulmamun@gmail.com
+@ Creator-Facebook: https://facebook.com/asifulmamun
+*/
+
+/* Global Css */
+*{padding:0;margin:0;}.border{display:block;margin:0 auto;border:5px solid #6A8FB6;}.absolute{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-o-transform: translate(-50%,-50%);}
+body{
+    background-image: url("https://s22.postimg.cc/nxbi7px69/image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+}
+/* index.php */
+.notice_clip{
+    padding: 30px 0px;
+    color: #71153c;
+}
+.notice_clip h2{
+    font-family: 'Anton', sans-serif;
+}
+.notice_clip h3{
+	color: red;
+	border-bottom: 1px solid #4FDAE6;
+    border-bottom-width: 10px;
+    padding: 15px 0px;
+    margin: 0 10%;
+    font-family: 'Anton', sans-serif;
+}
+.notice_clip h3:hover{
+	cursor: pointer;
+}
+/* bootststrap buuldup edited in carosal index slider */
+.carousel {
+	position: relative;
+    width: 320px;
+    height: 220px;
+    overflow: hidden;
+    display: block;
+    margin: 20px auto;
+}
+.carousel img {
+    width: 320px !important;
+    height: 220px !important;
+}
+.table th,.table td{
+    text-align:center;
+    cursor: pointer;
+}
+
+.bnumber{
+
+}
+.bnumber ul{
+    text-align: center;
+    margin-top: 8px;
+}
+.bnumber ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1px 5px;
+    border: 2px solid #44C1EE;
+    margin: 5px -3px;
+    font-size: 16px;
+    text-align: center;
+}
+.notice_bnumber{
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    color: red;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+}
+}
+/* RESPONSIVE */
+@media (min-width:200px) and (max-width:480px){
+    .table tr{font-size: 16px;}
+    .table tr{font-size: 14px;}
+}

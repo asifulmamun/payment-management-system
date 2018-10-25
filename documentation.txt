@@ -1,0 +1,53 @@
+asifulmamun@gmail.com
+facebook.com/asifulmamun
+--------------------------
+
+database information
+===================
+database: member
+Column: ID, NAME, MOBILE, DATE, PAYMENT
+
+Install Process:
+------------------
+Step-1.
+"""""""
+	Go to function folder and open connection.php file
+	function/connection.php
+
+	Changer your all server information which you want Like as:
+		$servername = "localhost"; // localhose use server name or host name
+		$username = "root"; // host username
+		$password = ""; // host password
+		$dbname = "iftar"; // database name which you will create
+
+
+Step-2.
+"""""""
+	Go to phpmyadmin in your server that means MySql
+	then create a database naem this 'iftar' or you can create with your mind but must be need to change database name 'iftar' to your create database name from connetciton.php follwoin step-1.
+
+Step-3:
+""""""
+	After Copleted Step 1-2 then go to MySql means PHPmyadmin then write this query below. or folow manually create.
+
+
+Then you can Start this web site.
+
+sql query for create table and column:
+======================================
+CREATE TABLE `iftar`.`member` ( `ID` INT(20) NOT NULL AUTO_INCREMENT , `NAME` VARCHAR(300) NOT NULL , `MOBILE` VARCHAR(15) NOT NULL , `DATE` DATE NOT NULL , `PAYMENT` INT(10) NOT NULL , PRIMARY KEY (`ID`), UNIQUE (`MOBILE`)) ENGINE = InnoDB;
+
+
+Manually Create:
+""""""""""""""""
+	Go to MySql in PHPMyadmin and after create database then create table this name is: 'member' and create some column in table this name is: ID, NAME, MOBILE, DATE, PAYMENT
+	(Tatal 5 column must be need create and member table must be need same as name).
+
+
+
+
+
+// Extra Example
+iftarparty.cf database
+=======================
+CREATE TABLE `b5_20370296_iftar`.`member` ( `ID` INT(20) NOT NULL AUTO_INCREMENT , `NAME` VARCHAR(300) NOT NULL , `MOBILE` VARCHAR(15) NOT NULL , `DATE` DATE NOT NULL , `PAYMENT` INT(10) NOT NULL , PRIMARY KEY (`ID`), UNIQUE (`MOBILE`)) ENGINE = InnoDB;

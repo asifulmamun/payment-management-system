@@ -1,0 +1,188 @@
+/*
+@ Created by al mamun
+
+*/
+
+/*global*/
+*{padding:0;margin:0;}.border{display:block;margin:0 auto;border:1px solid #4FDAE6;}.absolute{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-o-transform: translate(-50%,-50%);}
+body{font-family: 'Roboto', sans-serif;}
+/* dashboar.php */
+#dashboard{
+    padding: 30px 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
+.dashboardAllButton{
+	
+}
+.mbutton{
+	display: inline-block;
+	margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    background-color: green;
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+.mbutton a{
+	color:#fff;
+	transition: 0.3s;-webkit-transition: 0.3s;-moz-transition: 0.3s;-ms-transition: 0.3s;-o-transition: 0.3s;
+}
+.mbutton a:hover{
+	text-decoration: none;
+	text-shadow: 3px 4px 4px #442c8ce0;
+}
+
+/* add.php */
+.main_container{
+	background: green;
+	width: 100%;
+	min-height: 100vh;
+    margin: -25px 0px;
+}
+.add_form{
+	padding: 40px 0px 0px 0px;
+}
+.add_form input[type=text],.add_form input[type=date],.add_form input[type=submit]{
+	display: block;
+	color: #ffffff;
+}
+.add_form input[type=text]{
+    width: 50%;
+    height: 50px;
+    padding: 0px 15px;
+    border: 1px solid #6ACED7;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: transparent;
+}
+.add_form input[type=date]{
+    width: 50%;
+    height: 50px;
+    padding: 0px 15px;
+    border: 1px solid #6ACED7;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+}
+.add_form input[type=submit]{
+    padding: 10px 30px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #65d0da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.add_form input[type=submit]:hover{
+	box-shadow: -1px 6px 12px #e4f5f75e;
+}
+/* placeholdr css */
+.add_form input[type=text]::placeholder {
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+.add_form input[type=text]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ffffff;
+}
+.add_form input[type=text]::-ms-input-placeholder { /* Microsoft Edge */
+   color: #ffffff;
+}
+.white{color:#ffffff;}
+
+/* index.php */
+
+.login_bg{
+    background-color: #222222;
+    width: 100%;
+    min-height: 100vh;
+    margin: -21px 0px;
+    padding: 40px 0px 0px 0px;
+}
+#login input[type=text],#login input,#login button{
+    display: block;
+    margin: 10px auto;
+}
+#login input[type=text]{
+    width: 40%;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #298136;
+    background-color: transparent;
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+}
+#login input[type=password]{
+    width: 40%;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #298136;
+    background-color: transparent;
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+}
+#login input[type=date]{
+    width: 40%;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #298136;
+    background-color: transparent;
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+}
+#login button{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid #298136b0;
+    color: #dee6df;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+#login button:hover{
+    background: #222222;
+    border: transparent;
+    color: #298136b0;
+    font-weight: inherit;
+    box-shadow: 1px 1px 14px #e6baba5c;
+}
+.log-info{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 6px #F1B3C9;
+    font-size: 25px;
+}
+.table th,.table td{
+    text-align:center;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (min-width:200px) and (max-width:480px){
+    .table th{font-size: 12px;}
+    .table tr{font-size: 10px;}
+    .mbutton{width: 150px;height: 130px;font-size: 18px;}
+}

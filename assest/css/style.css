@@ -1,0 +1,295 @@
+/* Global Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Section */
+#header>div>div>div>a{
+    color: #B3B2B2;
+}
+.headContent {
+    border-bottom: 0.015em solid #c3b2b2;
+    padding: 15px 0px;
+}
+/* logo and nav */
+.top-nav>nav>ul {
+    float: right;
+    padding-top: 45px;
+}
+.top-nav>nav>ul>li {
+    list-style: none;
+    display: inline;
+}
+.top-nav>nav>ul>li>a {
+    color: #FDA51E;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px;
+}
+.top-nav>nav>ul>li>a:active,.top-nav>nav>ul>li>a:hover,.top-nav>nav>ul>li>a:focus{
+    color: #444;
+}
+/* banner section */
+#banner>div>div>div>div>img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#banner>div>div>div {
+    padding: 15px 0px;
+    border-bottom: 0.015em solid #c3b2b2;
+}
+/* IN banner design */
+.bannerContent{
+    position: relative;
+}
+.bannerContentSub1 {
+     position: absolute;
+    bottom: 12%;
+    left: 3.02%;
+    overflow: hidden;
+    background: #000;
+    padding: 8px 12px;
+    font-size: 20px;
+}
+/* bsnner content sub left right*/
+.bcsl {
+    float: left;
+    color: #979696;
+    padding: 0px 40px 0px 0px;
+}
+.bcsr{
+    float: right;
+    color: #F49500;
+    cursor: pointer;
+}
+/* Banner Heading */
+.bannerContentSub2 {
+    position: absolute;
+    top: 0;
+    left: 3.02%;
+}
+.bannerContentSub2 h1 {
+    color: #fff;
+    font-size: 70px;
+    line-height: 80px;
+}
+/* Paragraph Content About Section */
+#paConAbout{
+    padding: 15px 0px;
+}
+#paConAbout>div>div>div>h4 {
+    font-weight: 600;
+    border-bottom: 5px solid #333;
+    padding: 10px 0px;
+}
+#paConAbout>div>div>div>h4>span:hover {
+    color: #EE7100;
+    cursor: no-drop;
+}
+#paConAbout>div>div>div>p {
+    color: #444;
+    line-height: 25px;
+    text-align: justify;
+    word-spacing: 0px;
+    padding: 2px 0px;
+}
+#paConAbout>div>div>div>b {
+    color: #FBB566;
+    font-size: 18px;
+}
+#paConAbout>div>div>div>b:hover{
+    color: #000;
+    cursor: pointer;
+}
+#paConAbout>div>div>div>p>i {
+    color: #444;
+    background-color: #CBCBCB;
+    font-size: 18px;
+}
+#paConAbout>div>div>div>i{
+    font-weight: 600;
+}
+/* Portfolio Section */
+#pFolio .pFolio-b {
+    border-bottom: 0.015em solid #c3b2b2;
+    border-top: 0.015em solid #c3b2b2;
+    padding: 25px 0px;
+}
+#pFolio h4 {
+    padding: 5px 0px;
+    font-weight: 600;
+}
+#pFolio h4:hover {
+    color: #F98E00;
+    cursor: pointer;
+}
+#pFolio img{
+    width: 100%;
+    height: auto;
+}
+/* Animate image */
+.portFoImg{
+    position: relative;
+}
+.portFoImg:hover:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(62, 57, 57, 0.75);
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.portFoImg .portIc {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    color: #fff;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    opacity: 0;
+}
+.portFoImg:hover .portIc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    opacity: 1;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+/* Cobntact Section */
+#contact>div>div>div>ul>li{
+    list-style: none;
+    display: inline;
+    padding: 0px 5px;
+}
+#contact>div>div>div>ul>li{
+    cursor: pointer;
+}
+#contact>div>div>div>ul{
+    padding-top: 10px;
+}
+#contact>div>div>div>h4 {
+    padding: 3px 0px;
+    font-weight: 600;
+}
+#contact>div>div>div>h4:hover {
+    padding: 3px 0px;
+    color: #F98E00;
+    cursor: pointer;
+}
+/* Footer Section */
+footer{
+    background-color: #e2e2e2;
+}
+#footer img {
+    padding: 15px 0px;
+}
+#footer ul {
+    float: left;
+    padding-top: 25px;
+    padding-left: 0;
+}
+#footer ul li {
+    list-style: none;
+    display: inline;
+    border-left: 1px solid #333;
+}
+#footer ul li:first-child{
+    border-left: none;
+}
+#footer ul li a{
+    color: #333;
+    font-size: 16px;
+    padding: 0px 7px;
+}
+#footer ul li a:hover,#footer ul li a:focus{
+    color: #FE9B00;
+}
+/* copyright text */
+#footer p{
+    float: left;
+    cursor: no-drop;
+}
+
+/* Start Media 990px */
+@media screen and (max-width: 990px){
+    .logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    nav{
+        display: none;
+    }
+    .bannerContentSub2 h1 {
+        font-size: 65px;
+        line-height: 60px;
+    }
+    .bannerContentSub1 {
+        padding: 8px 2px;
+        font-size: 8px;
+    }
+    #pFolio img {
+        padding-top: 20px;
+    }
+    .portFoImg:hover:before {
+        width: 100%;
+        height: 96.5%;
+        margin-top: 20px;
+    }
+    .fLogo{
+        margin: 0 auto;
+        width: 20%;
+        height: auto;
+    }
+
+/* Max Widt 990px */
+}
+/* End Media 990px */
+
+/* Start Media 768px */
+@media (min-width: 481px) and (max-width: 768px){
+    .logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    .bannerContentSub2 h1 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+/* Max Widt 768px */
+}
+/* End Media 768px */
+
+/* Start Media 480px */
+@media screen and (max-width: 480px){
+    .bannerContentSub2 h1 {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .bannerContentSub1 {
+        padding: 4px 1px;
+        font-size: 6px;
+    }
+/* Max Widt 768px */
+}
+/* End Media 768px */
