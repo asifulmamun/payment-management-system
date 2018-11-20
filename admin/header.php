@@ -32,12 +32,12 @@
 	    </div>
 	    <ul class="nav navbar-nav">
 	      <li class="active"><a href="/">Home</a></li>
-	      <li><a href="/admin/dashboard.php">Dashboard</a></li>
-	      <li><a href="/admin/add.php">Add Member</a></li>
-	      <li><a href="/admin/edit.php">Edit/Delete Member</a></li>
-	      <li><a href="/admin/show.php">List Of Member With All Details</a></li>
-	      <li><a href="/admin">Log In</a></li>
-	      <li><a href="/admin/log_out.php">Log Out</a></li>
+	      <li><a href="dashboard.php">Dashboard</a></li>
+	      <li><a href="add.php">Add Member</a></li>
+	      <li><a href="edit.php">Edit/Delete Member</a></li>
+	      <li><a href="show.php">List Of Member With All Details</a></li>
+	      <li><a href="">Log In</a></li>
+	      <li><a href="log_out.php">Log Out</a></li>
 	    </ul>
 	  </div>
 	</nav>
